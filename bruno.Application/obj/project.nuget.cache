@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "lYkQ1QPyQDk79g6CCxH98Gf42eO+MXzqGhZbNnzlyJ8Hxz2fGhOANX2X08QNRHvGTiRMJnnKjVW9OFJG4Pyd6A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bruno\\Documents\\GitHub\\TemplateCleanArchitecture\\bruno.Application\\bruno.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bruno\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

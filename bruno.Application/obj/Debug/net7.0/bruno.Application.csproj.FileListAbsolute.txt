@@ -1,0 +1,17 @@
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\bin\Debug\net7.0\bruno.Application.deps.json
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\bin\Debug\net7.0\bruno.Application.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\bin\Debug\net7.0\bruno.Application.pdb
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\bin\Debug\net7.0\bruno.Contracts.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\bin\Debug\net7.0\bruno.Domain.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\bin\Debug\net7.0\bruno.Domain.pdb
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\bin\Debug\net7.0\bruno.Contracts.pdb
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\obj\Debug\net7.0\bruno.Application.csproj.AssemblyReference.cache
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\obj\Debug\net7.0\bruno.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\obj\Debug\net7.0\bruno.Application.AssemblyInfoInputs.cache
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\obj\Debug\net7.0\bruno.Application.AssemblyInfo.cs
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\obj\Debug\net7.0\bruno.Application.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\obj\Debug\net7.0\bruno.Application.csproj.CopyComplete
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\obj\Debug\net7.0\bruno.Application.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\obj\Debug\net7.0\refint\bruno.Application.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\obj\Debug\net7.0\bruno.Application.pdb
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Application\obj\Debug\net7.0\ref\bruno.Application.dll

@@ -1,0 +1,12 @@
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\bin\Debug\net7.0\bruno.Presentation.deps.json
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\bin\Debug\net7.0\bruno.Presentation.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\bin\Debug\net7.0\bruno.Presentation.pdb
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\obj\Debug\net7.0\bruno.Presentation.csproj.AssemblyReference.cache
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\obj\Debug\net7.0\bruno.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\obj\Debug\net7.0\bruno.Presentation.AssemblyInfoInputs.cache
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\obj\Debug\net7.0\bruno.Presentation.AssemblyInfo.cs
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\obj\Debug\net7.0\bruno.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\obj\Debug\net7.0\bruno.Presentation.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\obj\Debug\net7.0\refint\bruno.Presentation.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\obj\Debug\net7.0\bruno.Presentation.pdb
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Presentation\obj\Debug\net7.0\ref\bruno.Presentation.dll

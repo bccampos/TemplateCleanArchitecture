@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "mjK8StgemhQ/t1ZVLJcPDEBS236Ng46fRn9ZuPfopoZSpgpJbcgl6atTJkw9Rg/C9XrmYDprUh0VdhGsdRIxLQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bruno\\Documents\\GitHub\\TemplateCleanArchitecture\\bruno.Infrastructure\\bruno.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bruno\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.3.23174.8\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512"
+  ],
+  "logs": []
+}
