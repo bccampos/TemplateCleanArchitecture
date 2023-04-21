@@ -166,7 +166,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\bruno\\Documents\\GitHub\\TemplateCleanArchitecture\\bruno.Application\\bruno.Application.csproj": {
+                "projectPath": "C:\\Users\\bruno\\Documents\\GitHub\\TemplateCleanArchitecture\\bruno.Application\\bruno.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -179,9 +183,21 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.8, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[8.0.0-preview.3.23174.8, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.3.23174.8, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.29.0, )"
             }
           },
           "imports": [

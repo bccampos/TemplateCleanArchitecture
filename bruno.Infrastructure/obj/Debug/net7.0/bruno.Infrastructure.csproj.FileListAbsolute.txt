@@ -10,3 +10,10 @@ C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\o
 C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\obj\Debug\net7.0\refint\bruno.Infrastructure.dll
 C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\obj\Debug\net7.0\bruno.Infrastructure.pdb
 C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\obj\Debug\net7.0\ref\bruno.Infrastructure.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\bin\Debug\net7.0\bruno.Application.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\bin\Debug\net7.0\bruno.Contracts.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\bin\Debug\net7.0\bruno.Domain.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\bin\Debug\net7.0\bruno.Application.pdb
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\bin\Debug\net7.0\bruno.Contracts.pdb
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\bin\Debug\net7.0\bruno.Domain.pdb
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.Infrastructure\obj\Debug\net7.0\bruno.Infrastructure.csproj.CopyComplete

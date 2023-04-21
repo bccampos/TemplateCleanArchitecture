@@ -54,3 +54,8 @@ C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\obj\Debug
 C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\obj\Debug\net7.0\bruno.WebApi.pdb
 C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\obj\Debug\net7.0\bruno.WebApi.genruntimeconfig.cache
 C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\obj\Debug\net7.0\ref\bruno.WebApi.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
