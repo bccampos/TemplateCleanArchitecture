@@ -1,7 +1,9 @@
 ﻿using bruno.Application.Common.Interfaces.Authentication;
+using bruno.Application.Common.Interfaces.Persistence;
 using bruno.Application.Common.Interfaces.Services;
 using bruno.Infrastructure.Authentication;
 using bruno.Infrastructure.Authentication.Services;
+using bruno.Infrastructure.Persistence;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -15,6 +17,8 @@ namespace bruno.Infrastructure
 
             services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
+
+            services.AddScoped<IUserRepository, UserRepository>();
 
             return services;    
         }

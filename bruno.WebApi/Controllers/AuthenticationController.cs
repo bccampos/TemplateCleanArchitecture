@@ -1,5 +1,6 @@
 ﻿using bruno.Application.Authentication;
 using bruno.Contracts.Authentication;
+using bruno.WebApi.Filter;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +9,7 @@ namespace bruno.WebApi.Controllers
 {
     [Route("auth")]
     [ApiController]
+    [ErrorHandlingFilter]
     public class AuthenticationController : ControllerBase
     {
         private readonly IAuthenticationService _authenticationService;
@@ -22,7 +24,7 @@ namespace bruno.WebApi.Controllers
         {
             var authResult = _authenticationService.Register(request.FirstName, request.LastName, request.Email, request.Password);
 
-            var response = new AuthenticationResponse(authResult.Id, authResult.FirstName, authResult.LastName, authResult.Email, authResult.Token);
+            var response = new AuthenticationResponse(authResult.user.Id, authResult.user.FirstName, authResult.user.LastName, authResult.user.Email, authResult.Token);
 
             return Ok(response);
         }
@@ -32,7 +34,7 @@ namespace bruno.WebApi.Controllers
         {
             var authResult = _authenticationService.Login(request.Email, request.Password);
 
-            var response = new AuthenticationResponse(authResult.Id, authResult.FirstName, authResult.LastName, authResult.Email, authResult.Token);
+            var response = new AuthenticationResponse(authResult.user.Id, authResult.user.FirstName, authResult.user.LastName, authResult.user.Email, authResult.Token);
 
             return Ok(request);
         }
