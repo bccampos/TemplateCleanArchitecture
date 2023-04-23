@@ -65,3 +65,4 @@ C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\bin\Debug
 C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
+C:\Users\bruno\Documents\GitHub\TemplateCleanArchitecture\bruno.WebApi\bin\Debug\net7.0\FluentResults.dll

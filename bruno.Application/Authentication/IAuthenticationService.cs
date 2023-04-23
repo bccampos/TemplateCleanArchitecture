@@ -1,4 +1,5 @@
 ﻿using bruno.Contracts.Authentication;
+using FluentResults;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +10,8 @@ namespace bruno.Application.Authentication
 {
     public interface IAuthenticationService
     {
-        AuthenticationResult Register  (string firstName, string LastName, string email, string password);
+        Result<AuthenticationResult> Register  (string firstName, string LastName, string email, string password);
 
-        AuthenticationResult Login(string email, string password);
+        Result<AuthenticationResult>Login(string email, string password);
     }
 }

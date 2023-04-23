@@ -1,6 +1,8 @@
 ﻿using bruno.Application.Authentication;
+using bruno.Application.Common.Errors;
 using bruno.Contracts.Authentication;
 using bruno.WebApi.Filter;
+using FluentResults;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -22,11 +24,20 @@ namespace bruno.WebApi.Controllers
         [HttpPost("register")]
         public IActionResult Register(RegisterRequest request)
         {
-            var authResult = _authenticationService.Register(request.FirstName, request.LastName, request.Email, request.Password);
+            Result<AuthenticationResult> authResult = _authenticationService.Register(request.FirstName, request.LastName, request.Email, request.Password);
 
-            var response = new AuthenticationResponse(authResult.user.Id, authResult.user.FirstName, authResult.user.LastName, authResult.user.Email, authResult.Token);
+            if (authResult.IsSuccess)
+            {
+                return Ok(MapAuthResult(authResult.Value));
+            }
 
-            return Ok(response);
+            var firstError = authResult.Errors[0];
+            if (firstError is DuplicateEmailError) 
+            {
+                return Problem(statusCode: StatusCodes.Status409Conflict, detail: firstError.Message);
+            }
+
+            return Problem($"Unexpected error: {firstError.Message}");
         }
 
         [HttpPost("login")]
@@ -34,9 +45,28 @@ namespace bruno.WebApi.Controllers
         {
             var authResult = _authenticationService.Login(request.Email, request.Password);
 
-            var response = new AuthenticationResponse(authResult.user.Id, authResult.user.FirstName, authResult.user.LastName, authResult.user.Email, authResult.Token);
+            if (authResult.IsSuccess)
+            {
+                return Ok(MapAuthResult(authResult.Value));
+            }
 
-            return Ok(request);
+            var firstError = authResult.Errors[0];
+            if (firstError is DuplicateEmailError)
+            {
+                return Problem(statusCode: StatusCodes.Status409Conflict, detail: firstError.Message);
+            }
+
+            return Problem($"Unexpected error: {firstError.Message}");
+        }
+
+        private static AuthenticationResponse MapAuthResult(AuthenticationResult authResult)
+        { 
+            return new AuthenticationResponse(
+                authResult.user.Id,
+                authResult.user.FirstName,
+                authResult.user.LastName,
+                authResult.user.Email,
+                authResult.Token);
         }
     }
 }

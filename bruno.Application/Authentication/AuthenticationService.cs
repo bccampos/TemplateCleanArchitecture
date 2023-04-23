@@ -1,6 +1,8 @@
-﻿using bruno.Application.Common.Interfaces.Authentication;
+﻿using bruno.Application.Common.Errors;
+using bruno.Application.Common.Interfaces.Authentication;
 using bruno.Application.Common.Interfaces.Persistence;
 using bruno.Domain.Entities;
+using FluentResults;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,12 +22,12 @@ namespace bruno.Application.Authentication
             _userRepository = userRepository;   
         }   
 
-        public AuthenticationResult Register(string firstName, string lastName, string email, string password)
+        public Result<AuthenticationResult> Register(string firstName, string lastName, string email, string password)
         {
             // Validate the user doenst exist
             if (_userRepository.GetByEmail(email) is not null)
             {
-                throw new Exception("User with given email already exists.");
+                return Result.Fail<AuthenticationResult>(new DuplicateEmailError());
             }
 
             // Create user (generate unique ID) & persist it
@@ -45,18 +47,18 @@ namespace bruno.Application.Authentication
             return new AuthenticationResult(user, token);
         }
 
-        public AuthenticationResult Login(string email, string password)
+        public Result<AuthenticationResult> Login(string email, string password)
         {
             // Validate the user doenst exist
             if (_userRepository.GetByEmail(email) is not User user)
             {
-                throw new Exception("User with given email already exists.");
+                return Result.Fail<AuthenticationResult>(new DuplicateEmailError());
             }
 
             //Validate the passoword is correct
             if (user.Password != password)
             {
-                throw new Exception("Invalid Password");
+                return Result.Fail<AuthenticationResult>("Invalid password.");
             }
 
             //Create JWT Token

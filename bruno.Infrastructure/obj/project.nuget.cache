@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "X7CnW0vcOlAZ+pqJgd9cuZCXwy1d1gB45jseBqbc8r5vmhJKyOlPSgB0p2ZQkd9YyewVeVxFhgwZ5V3mOTt+OA==",
+  "dgSpecHash": "cJgOZ1ULqtLH0ZqO2BDDADheOTHl7PD7W7ItadMnivMaQjKmXZOEcW1rdCIgeXod7Kd4ylMTW6Eg4+fzq+Nn8A==",
   "success": true,
   "projectFilePath": "C:\\Users\\bruno\\Documents\\GitHub\\TemplateCleanArchitecture\\bruno.Infrastructure\\bruno.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\bruno\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.2\\fluentvalidation.dependencyinjectionextensions.11.5.2.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
@@ -13,6 +14,7 @@
     "C:\\Users\\bruno\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0-preview.3.23174.8\\microsoft.extensions.configuration.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0-preview.3.23174.8\\microsoft.extensions.configuration.binder.8.0.0-preview.3.23174.8.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0-preview.3.23174.8\\microsoft.extensions.dependencyinjection.abstractions.8.0.0-preview.3.23174.8.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.3.23174.8\\microsoft.extensions.options.8.0.0-preview.3.23174.8.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0-preview.3.23174.8\\microsoft.extensions.options.configurationextensions.8.0.0-preview.3.23174.8.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.3.23174.8\\microsoft.extensions.primitives.8.0.0-preview.3.23174.8.nupkg.sha512",
@@ -27,7 +29,8 @@
     "C:\\Users\\bruno\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\bruno\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
-    "C:\\Users\\bruno\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+    "C:\\Users\\bruno\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\bruno\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }
