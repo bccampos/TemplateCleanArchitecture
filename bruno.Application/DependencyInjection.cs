@@ -14,8 +14,6 @@ namespace bruno.Application
 
             services.AddValidatorsFromAssembly(assembly);
 
-            services.AddScoped<IAuthenticationService, AuthenticationService>();
-
             return services;    
         }
 

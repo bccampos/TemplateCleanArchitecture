@@ -1,8 +1,11 @@
 ﻿using bruno.Application.Authentication;
+using bruno.Application.Authentication.Commands.Register;
+using bruno.Application.Authentication.Queries.Login;
 using bruno.Application.Common.Errors;
 using bruno.Contracts.Authentication;
 using bruno.WebApi.Filter;
 using FluentResults;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
@@ -14,17 +17,19 @@ namespace bruno.WebApi.Controllers
     [ErrorHandlingFilter]
     public class AuthenticationController : ControllerBase
     {
-        private readonly IAuthenticationService _authenticationService;
+        private readonly IMediator _mediator;
         
-        public AuthenticationController(IAuthenticationService authenticationService)
+        public AuthenticationController(IMediator mediator)
         {
-            _authenticationService = authenticationService;
+            _mediator = mediator;
         }
 
         [HttpPost("register")]
-        public IActionResult Register(RegisterRequest request)
+        public async Task<IActionResult> Register(RegisterRequest request)
         {
-            Result<AuthenticationResult> authResult = _authenticationService.Register(request.FirstName, request.LastName, request.Email, request.Password);
+            var command = new RegisterCommand(request.FirstName, request.LastName, request.Email, request.Password);
+
+            Result<AuthenticationResult> authResult = await _mediator.Send(command);
 
             if (authResult.IsSuccess)
             {
@@ -41,9 +46,11 @@ namespace bruno.WebApi.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login(LoginRequest request)
+        public async Task<IActionResult> Login(LoginRequest request)
         {
-            var authResult = _authenticationService.Login(request.Email, request.Password);
+            var query = new LoginQuery(request.Email, request.Password);
+
+            var authResult = await _mediator.Send(query);
 
             if (authResult.IsSuccess)
             {
